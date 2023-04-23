@@ -1,0 +1,96 @@
+/* CSS for subheader  */
+.container_subheader{
+    background-color: #000000;
+    /* background-color: transparent; */
+    text-align: right;
+    padding: 5px 10px 5px 0px;
+    /* display: flex-end; */
+}
+
+.sub_icon{ 
+    margin-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.sub_text{
+    border-left: 0.5px solid white;
+    padding-left: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.sub_icon:hover {
+    color: #333;
+}
+
+.sub_text:hover {
+    color: #333;
+    text-decoration: none;
+}   
+
+/* CSS for header  */
+.navbar {
+    background-color: transparent;
+    padding: 5px 10px 0px 0px;
+}
+
+.container_mainheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-text{
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.main_icon{ 
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    justify-content: center;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* .nav-item {
+    position: relative;
+} */
+
+/* .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem;
+} */
+
+/* .dropdown-menu a {
+    display: block;
+    padding: 0.5rem;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #eee;
+}
+
+.login{
+    color: black;
+    text-align: right;
+    padding-right: 0px;
+}
